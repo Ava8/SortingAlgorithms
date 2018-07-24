@@ -53,5 +53,8 @@ func shakerSort<T:Comparable>(_ list: [T]) -> [T] {
         //проверяем есть ли премещения или массив уже отсротирован
         if flag == false {break}
     }
+    print("исходный массив: \(list)")
+    print("отсортированный массив: \(sortList)")
+    print("\n")
     return sortList
 }

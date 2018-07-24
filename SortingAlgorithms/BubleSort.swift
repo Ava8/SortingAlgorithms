@@ -23,6 +23,9 @@ func bubleSort<T:Comparable>(_ list: [T]) -> [T] {
             }
         }
     }
+    print("исходный массив: \(list)")
+    print("отсортированный массив: \(sortList)")
+    print("\n")
     return sortList
 }
 

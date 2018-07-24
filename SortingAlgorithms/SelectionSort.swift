@@ -24,6 +24,9 @@ func selectionSort<T:Comparable>(_ list: [T]) -> [T] {
             sortList.swapAt(min, i)
         }
     }
+    print("исходный массив: \(list)")
+    print("отсортированный массив: \(sortList)")
+    print("\n")
     return sortList
 }
 
