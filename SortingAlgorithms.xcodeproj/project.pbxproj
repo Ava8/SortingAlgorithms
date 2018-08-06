@@ -13,6 +13,9 @@
 		D003D1B62101D3AA005EA7E6 /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D003D1B52101D3AA005EA7E6 /* ShellSort.swift */; };
 		D0319FC220D5189100217AD1 /* BubleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319FC120D5189100217AD1 /* BubleSort.swift */; };
 		D0319FC420D51E8200217AD1 /* ShakerSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319FC320D51E8200217AD1 /* ShakerSort.swift */; };
+		D09348F92115A9B3001859FD /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09348F82115A9B3001859FD /* MergeSort.swift */; };
+		D09348FB2115B62F001859FD /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09348FA2115B62F001859FD /* HeapSort.swift */; };
+		D096ACF42107D46E00D247C9 /* CountingSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D096ACF32107D46E00D247C9 /* CountingSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +38,9 @@
 		D003D1B52101D3AA005EA7E6 /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
 		D0319FC120D5189100217AD1 /* BubleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubleSort.swift; sourceTree = "<group>"; };
 		D0319FC320D51E8200217AD1 /* ShakerSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakerSort.swift; sourceTree = "<group>"; };
+		D09348F82115A9B3001859FD /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		D09348FA2115B62F001859FD /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		D096ACF32107D46E00D247C9 /* CountingSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 				D0319FC120D5189100217AD1 /* BubleSort.swift */,
 				D0319FC320D51E8200217AD1 /* ShakerSort.swift */,
 				D003D1B52101D3AA005EA7E6 /* ShellSort.swift */,
+				D096ACF32107D46E00D247C9 /* CountingSort.swift */,
+				D09348F82115A9B3001859FD /* MergeSort.swift */,
+				D09348FA2115B62F001859FD /* HeapSort.swift */,
 			);
 			path = SortingAlgorithms;
 			sourceTree = "<group>";
@@ -136,9 +145,12 @@
 			files = (
 				D003D1B62101D3AA005EA7E6 /* ShellSort.swift in Sources */,
 				D0319FC420D51E8200217AD1 /* ShakerSort.swift in Sources */,
+				D09348F92115A9B3001859FD /* MergeSort.swift in Sources */,
 				D0319FC220D5189100217AD1 /* BubleSort.swift in Sources */,
+				D096ACF42107D46E00D247C9 /* CountingSort.swift in Sources */,
 				D00325F620D4290900D84D0D /* main.swift in Sources */,
 				D00325FF20D42D2B00D84D0D /* SelectionSort.swift in Sources */,
+				D09348FB2115B62F001859FD /* HeapSort.swift in Sources */,
 				D00325FD20D429A700D84D0D /* QuickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

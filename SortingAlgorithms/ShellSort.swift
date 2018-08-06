@@ -13,7 +13,6 @@ func shellSort<T:Comparable>(_ list: [T]) -> [T] {
     
     //сравнивать будем элементы, находящиеся друг от друга на некотором расстоянии
     var step = sortList.count/2
-    print(step)
     
     // пока шаг не будет равен 1
     while step > 0 {
@@ -33,8 +32,5 @@ func shellSort<T:Comparable>(_ list: [T]) -> [T] {
         //сокращаем шаг, тем самым уменьшая количество групп
         step /= 2
     }
-    print("исходный массив: \(list)")
-    print("отсортированный массив: \(sortList)")
-    print("\n")
     return sortList
 }
